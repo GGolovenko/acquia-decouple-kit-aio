@@ -1,0 +1,6 @@
+[submodule "react/code"]
+	path = react/code
+	url = https://github.com/acquia-pso/decoupledkit-react.git
+[submodule "drupal"]
+	path = drupal
+	url = https://github.com/acquia-pso/decoupledkit-drupal.git

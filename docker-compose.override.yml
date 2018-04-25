@@ -1,0 +1,7 @@
+version: "2"
+
+  graphql:
+    environment:
+      API_PUBLIC_KEY: put_your_marvel_public_key
+      API_PRIVATE_KEY: put_your_marvel_private_key
+      APOLLO_ENGINE: put_your_apolo_engine_key
