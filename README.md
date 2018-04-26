@@ -27,6 +27,6 @@ APOLLO_ENGINE= *** GO TO https://engine.apollographql.com ***
 
 ## Spinning up
 
-run install.sh
+Run: './install.sh'
 
 User url in the end to access your environment
