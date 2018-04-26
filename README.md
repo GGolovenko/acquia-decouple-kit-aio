@@ -8,6 +8,7 @@ Get your private and public key from Marvel: https://developer.marvel.com
 Get your API key from Apollo Engine: https://engine.apollographql.com
 
 Set your keys in docker-compose.override.yml files and inside /react/.env.graphql:
+
 docker-compose.override.yml
 ```
 services:
