@@ -16,7 +16,7 @@ case $answer in
 y)
     echo "Restoring DB dump"
     yes | drush sql-drop -y
-    gunzip < /var/www/dump/06042018-decoupledkit.sql.gz | drush sqlc
+    gunzip < /var/www/dump/dump.sql.gz | drush sqlc
     echo "Restoring files"
     unzip /var/www/dump/files*.zip -d /tmp/dump
     cp /tmp/dump/files/* /var/www/drupal/docroot/sites/default/files/ -R
