@@ -27,6 +27,8 @@ APOLLO_ENGINE= *** GO TO https://engine.apollographql.com ***
 
 ## Spinning up
 
-Run: './install.sh'
+Run: `./install.sh`
 
-User url in the end to access your environment
+Use url in the end to access your Drupal environment.
+Go to react app `http://localhost:8080/uac` and push login button to authorise your app.
+Check your GraphQL server here `http://localhost:8082/graphiql`
