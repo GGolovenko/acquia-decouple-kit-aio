@@ -22,6 +22,7 @@ services:
     volumes:
       - ./drupal:/var/www/drupal:cached
       - ./dump:/var/www/dump:cached
+      - ./dump/keys:/var/www/drupal/keys:cached
       - .git:/var/www/.git:cached
       - ./spin-up.sh:/var/www/html/spin-up.sh
 
