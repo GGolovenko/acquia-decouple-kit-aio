@@ -23,7 +23,7 @@ services:
       - ./drupal:/var/www/drupal:cached
       - ./dump:/var/www/dump:cached
       - .git:/var/www/.git:cached
-      - ./spin-up.sh:/var/www/html/spin-up.sh:ro
+      - ./spin-up.sh:/var/www/html/spin-up.sh
 
   nginx:
     image: wodby/drupal-nginx:8-1.13-3.0.2
